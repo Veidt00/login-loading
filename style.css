@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background: darkcyan;
+    color: #564598;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+img {
+    width: 8vw;
+}
+article {
+    position: fixed;
+    width: 340px;
+    height: 280px;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -170px;
+    background: cadetblue;
+    border-radius: 6px;
+    border: 1px solid black;
+    box-shadow: 0 1px 2px grey;
+}
+form {
+    margin: auto;
+    margin-top: 20px;
+}
+input {
+    font-family: 'BIZ UDGothic', sans-serif;
+    font-size: 12px;
+}
+.box {
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    width: 290px;
+    height: 12px;
+    border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    transition: all .4s ease;
+}
